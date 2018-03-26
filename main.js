@@ -103,6 +103,7 @@ class TestScene extends Scene {
 
     let force = new Vec(0, 0);
     if (inputState.getKey("w")) {
+      // TODO: update all of these to use vec commands like force = add(force, new Vec(0, 1));
       force.y -= speed;
     }
     if (inputState.getKey("a")) {
