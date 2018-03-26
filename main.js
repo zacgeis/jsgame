@@ -1,5 +1,5 @@
-var HEIGHT = 600;
-var WIDTH = 800;
+let HEIGHT = 600;
+let WIDTH = 800;
 
 class Vec {
   constructor(x, y) {
